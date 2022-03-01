@@ -3,7 +3,8 @@
 <h1> Книга отзывов и предложений </h1>
 <div class="reviws-from">
     <h2> Оставить отзыв </h2>
-    <form method="GET"> 
+    <form method="POST">
+        {% csrf_token %} 
         {{form.as_p}}
         <p><input type="submit" value="Оставить отзыв"></p>
     </form>
