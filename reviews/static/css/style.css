@@ -29,3 +29,17 @@ input[type=submit]{
     font-size: 20px;
     width: auto;
 }
+.review{
+    border-bottom:0.5px solid lightgray;
+}
+.review-text{
+    font-size:large;
+}
+.user {
+    font-size: 15px;
+    font-style: italic;
+}
+.rating{
+    color:green;
+    font-weight: bolder;
+}
