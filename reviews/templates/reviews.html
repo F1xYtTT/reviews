@@ -15,10 +15,10 @@
     <h2> Все отзывы </h2>
     {% for review in reviews %}
     <div class="review">
-        <p class="user">Оставил{{ review_1.name}}</p>
+        <p class="user">Оставил {{ review.name}}</p>
 
-        <p class="review-text">{{review_1.review}}</p>
-        <p class="rating"> Оценка:{{ review_1.rating}}/10</p>
+        <p class="review-text">{{review.review}}</p>
+        <p class="rating"> Оценка: {{ review.rating}}/10</p>
     </div>
     {% endfor %}
 </div>    
